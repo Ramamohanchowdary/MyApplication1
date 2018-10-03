@@ -1,0 +1,24 @@
+
+jsquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(×ç¹è8ã¶·øá,
+ squid:S1186±"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ÁÕ–8ã¶·øá,
+Dsquid:S1659"&Declare "songName" on a separate line.(ÚÔù8ËŠÎÔá,
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(²Ú±Ž
+nsquid:CommentedOutCodeLineW"<This block of commented-out lines of code should be removed.(£Öò”ùÿÿÿÿ8²çÀþá,
+Gsquid:S1659")Declare "textMaxTime" on a separate line.(ÚÔù8éªÅÔá,
+usquid:S3776)"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ž¨Œþÿÿÿÿ8ã¶·øá,
+Osquid:S1659"1Declare "textCurrentPosition" on a separate line.(ÚÔù8éªÅÔá,
+Jsquid:S1659"'Declare "playpause" on a separate line.(¨„Ñÿÿÿÿÿ8Çù¸Ôá,
+Hsquid:S1659"%Declare "forward" on a separate line.(¨„Ñÿÿÿÿÿ8°ð±Ôá,
+Esquid:S1659""Declare "stop" on a separate line.(¨„Ñÿÿÿÿÿ8°ð±Ôá,
+nsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(ÞÇöÁüÿÿÿÿ8¿ÕÓûá,
+¥squid:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ®çâùÿÿÿÿ8ã¶·øá,
+nsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(¶Æœ÷þÿÿÿÿ8ïîéøá,
+nsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(É•åªÿÿÿÿÿ8ÊÊ¢úâ,
+asquid:S2583\"CChange this condition so that it does not always evaluate to "true"(ÑÄÕ8ÊÊ¢úâ,
+asquid:S2583f"CChange this condition so that it does not always evaluate to "true"(ÑÄÕ8ÊÊ¢úâ,
+\squid:UselessImportCheck",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿ8ÊÊ¢úâ,
+qsquid:UselessImportCheck
+"FRemove this unused import 'android.support.v4.view.MotionEventCompat'.(ÍöóŸ8ÊÊ¢úâ,
+esquid:UselessImportCheck"5Remove this unused import 'android.view.MotionEvent'.(˜šËÞúÿÿÿÿ8ÊÊ¢úâ,
+Fsquid:S1148J"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÊÊ¢úâ,
+Fsquid:S1148O"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÊÊ¢úâ,
