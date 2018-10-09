@@ -17,6 +17,8 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
 
-        assertEquals(1,maths.Add(5,6));
+        //assertEquals(1,maths.Add(5,6));
+        assertEquals(19,maths.Add(5,6,8));
+
     }
 }

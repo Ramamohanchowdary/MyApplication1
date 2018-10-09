@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:textSize="35dp"
         android:layout_gravity="center"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="2dp"
         android:layout_centerHorizontal="true" />
     <ImageView
         android:layout_width="match_parent"
@@ -48,6 +48,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Small Text"
+        android:gravity="end"
         android:id="@+id/textView1"
         android:layout_marginLeft="10dp"
         />
@@ -63,7 +64,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
         android:id="@+id/textView2"
-android:gravity="center"
+         android:gravity="center"
         android:layout_centerHorizontal="true">
 
     </TextView>
@@ -73,9 +74,11 @@ android:gravity="center"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Small Text"
+        android:layout_gravity="center"
+
         android:id="@+id/textView3"
         android:layout_marginRight="10dp"
-        android:gravity="end"
+        android:gravity="start"
        />
 
 

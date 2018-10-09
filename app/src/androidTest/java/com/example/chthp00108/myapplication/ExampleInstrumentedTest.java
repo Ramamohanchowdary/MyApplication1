@@ -20,7 +20,8 @@ public class ExampleInstrumentedTest {
     public void useAppContext() throws Exception {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
+        MyMaths maths=new MyMaths();
 
-        assertEquals("com.example.chthp00108.myapplication", appContext.getPackageName());
+        assertEquals(2, maths.Add(2,5,9));
     }
 }

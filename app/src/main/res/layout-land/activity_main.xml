@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chthp00108.myapplication.MainActivity">
+
+<LinearLayout
+    android:id="@+id/layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_above="@+id/layout">
+    <Button
+        android:id="@+id/btback"
+        android:text="playList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"/>
+    <TextView
+        android:id="@+id/textview"
+        android:text="Music Palyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/android"
+        />
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/layout"
+android:layout_above="@+id/layout1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<TextView
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Small Text"
+    android:id="@+id/textView1"
+    android:gravity="end"
+    android:layout_marginLeft="10dp"
+    />
+
+
+
+
+
+<TextView
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Medium Text"
+    android:id="@+id/textView2"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
+
+</TextView>
+<TextView
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Small Text"
+    android:id="@+id/textView3"
+    android:layout_marginRight="10dp"
+    android:gravity="start"
+    />
+
+
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/layout1"
+android:layout_above="@+id/player_footer_bg"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<SeekBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/seekBar"
+    android:maxHeight="30dip"
+    android:backgroundTint="@color/colorAccent"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    />
+</LinearLayout>
+
+
+<LinearLayout
+android:id="@+id/player_footer_bg"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="center_vertical"
+android:layout_alignParentBottom="true"
+android:paddingLeft="10dp"
+android:paddingRight="10dp">
+<!-- Previous Button -->
+<ImageButton
+    android:layout_weight="1"
+    android:id="@+id/btnPrevious"
+    android:src="@mipmap/fastrewind"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"/>
+<!-- Backward Button -->
+<ImageButton
+    android:layout_weight="1"
+    android:id="@+id/btnPlay"
+    android:src="@mipmap/ic_launcher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"/>
+<!-- Play Button -->
+<ImageButton
+    android:layout_weight="1"
+    android:id="@+id/btnStop"
+    android:src="@mipmap/stop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"/>
+<ImageButton
+    android:layout_weight="1"
+    android:id="@+id/btnForward"
+    android:src="@mipmap/fastforward"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"/>
+<!-- Forward Button -->
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

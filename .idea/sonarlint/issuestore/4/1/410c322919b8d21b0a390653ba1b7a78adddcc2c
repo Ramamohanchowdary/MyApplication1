@@ -1,0 +1,14 @@
+
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(­úí‡øÿÿÿÿ8Éîö“å,
+Dsquid:S1659"&Declare "songName" on a separate line.(´ÔþØ8áº–å,
+nsquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(¹¬‡…úÿÿÿÿ8äâ»”å,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ì•—Ã8áº–å,
+dsquid:UselessImportCheck"9Remove this unused import 'android.widget.SimpleAdapter'.(»ªðž8áº–å,
+gsquid:UselessImportCheck"7Remove this unused import 'android.widget.ListAdapter'.(å‚«Ãúÿÿÿÿ8áº–å,
+Fsquid:S1148W"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8áº–å,
+esquid:UselessImportCheck"5Remove this unused import 'android.app.ListActivity'.(ì¤²øÿÿÿÿ8íÍ–å,
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(Æ†ÖÈÿÿÿÿÿ8¶É‘–å,
+nsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(†·½€ÿÿÿÿÿ8ÉÀ»”å,
+dsquid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ8Éîö“å,
+hsquid:UselessImportCheck"8Remove this unused import 'android.widget.ArrayAdapter'.( €ŠÑÿÿÿÿÿ8Éîö“å,
+isquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(‡ÒÐŽ8¬ÉÂ”å,

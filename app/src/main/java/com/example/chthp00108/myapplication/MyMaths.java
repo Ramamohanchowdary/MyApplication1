@@ -7,8 +7,13 @@ package com.example.chthp00108.myapplication;
 public class MyMaths  {
 
 
-    public int Add(int i,int j){
+    public int Add(int i,int j) {
 
-        return i+j;
+        return i + j;
     }
-}
+        public int Add(int i,int j,int k){
+
+            return i+j+k;
+        }
+    }
+
